@@ -1,4 +1,8 @@
-const reverseString = function() {
+const reverseString = function(word) {
+    let split = word.split("");
+    let rev = split.reverse();
+    var joinAr = rev.join("");
+    return joinAr
 
 };
 
